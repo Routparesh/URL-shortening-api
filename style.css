@@ -10,8 +10,6 @@ html,body{
     height:100%;
     width:100%;
     font-family: 'Poppins', sans-serif;
-    max-width: 80vw;
-    margin: 20px auto;
 
 }
 
@@ -76,7 +74,8 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
-    
+    max-width: 80vw;
+    margin: 20px auto;
 }
 
 .left-second-container h1{
@@ -106,6 +105,8 @@ nav{
     align-items: center;
     gap:20px;
     margin-top: 20px;
+    max-width: 80vw;
+    margin: 20px auto;
 }
 
 .inside-third-container input{
@@ -118,6 +119,7 @@ nav{
 .fourth-container{
     text-align: center;
     margin-top: 20px;
+    background-color: #EFF1F7;
 }
 
 .fourth-container h1{
@@ -130,8 +132,10 @@ nav{
 
 .five-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    background-color: #EFF1F7;
+    height: 75%;
 }
 
 .five-container .box{
@@ -141,16 +145,17 @@ nav{
     border-radius: 7px;
     margin-top: 20px;  
     padding: 0 10px 0 10px;
+    background-color: #fff;
 }
 
 .five-container .box2{
     position: relative;
-    top:20px;
+    top:30px;
 }
 
 .five-container .box3{
     position: relative;
-    top:40px;
+    top:60px;
 }
 
 .box-img{
@@ -173,4 +178,32 @@ nav{
 
 .box p{
     color: var(--Gray);
+}
+
+.six-container{
+    height:150px;
+    width:100%;
+    background-image: url(./images/bg-boost-desktop.svg);
+    background-size: cover;
+    background-color: var(--Very-Dark-Blue);
+    text-align: center;
+}
+
+.six-container h1{
+    color: #fff;
+    padding-top: 10px;
+}
+
+.seven-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+}
+
+.seven-container img{
+    color: #fff;
 }
